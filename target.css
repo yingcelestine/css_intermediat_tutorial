@@ -1,0 +1,25 @@
+:target {
+    background-color: bisque;
+}
+
+section {
+    width: 200px;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.nav a {
+    margin: 15px;
+    background-color: beige;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: rgba(163, 77, 120, 0.342);
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}

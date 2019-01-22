@@ -1,0 +1,21 @@
+:target {
+    animation: newlight 1s ease-in-out;
+    transform: translateX(20px);
+}
+
+@keyframes newlight {
+    0% {
+        border-left-color: red;
+    }
+    100% {
+        border-left-color: white;
+    }
+}
+
+section {
+    border-left: 20px solid white;
+    padding: 10px;
+    transition: all 0.2s ease;
+    padding-right: 50px;
+    margin-left: -20px;
+}

@@ -1,0 +1,18 @@
+p:first-of-type {
+    /* outline: 0px solid rgba(255, 203, 238, 1); */
+    outline: none;
+    border: 1px solid rgba(81, 203, 238, 1);
+    box-shadow: 0px 0px 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+}
+
+/* will not work since p is not a first child */
+
+p:first-child {
+    text-decoration-line: underline;
+}
+
+p:nth-child(3) {
+    text-decoration-line: underline;
+}
