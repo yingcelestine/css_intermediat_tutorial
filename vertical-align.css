@@ -1,0 +1,54 @@
+body {
+    color: gray;
+    font-size: 10px;
+    line-break: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical-align {
+    color: black;
+    font-size: 20px;
+    background-color: bisque;
+}
+
+span {
+    background-color: aquamarine;
+}
+
+#middle {
+    vertical-align: middle;
+}
+
+#-10px {
+    vertical-align: -10px;
+}
+
+#super {
+    vertical-align: super;
+}
+
+#bottom {
+    vertical-align: bottom;
+}
+
+#sub {
+    vertical-align: sub;
+}
+
+#baseline {
+    vertical-align: baseline;
+}
+
+#texttop {
+    vertical-align: text-top;
+    background-color: burlywood;
+}
+
+#top {
+    vertical-align: top;
+}
+
+#textbottom {
+    vertical-align: text-bottom;
+}
