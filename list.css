@@ -1,8 +1,6 @@
 body {
     background-color: #EBE8E4;
     color: #222;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
     font-size: 15px;
 }
 
@@ -26,11 +24,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     list-style-type: none;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
 }
 
 nav>ul>li>a>.caret, nav>ul>li>div ul>li>a>.caret {
